@@ -1,0 +1,24 @@
+{
+  "defineProps with composition api, ts": {
+    "prefix": "vProps",
+    "body": [
+      "defineProps<{${1:modelValue}:${2:Type}}>()"
+    ],
+    "description": "defineProps with composition api, ts"
+  },
+  "defineEmits with composition api, ts": {
+    "prefix": "vEmit",
+    "body": [
+      "defineEmits<{ (e: 'update:modelValue', value: any): void }>()"
+    ],
+    "description": "defineProps with composition api, ts"
+  },
+  "define vModel in component with composition api, ts": {
+    "prefix": "vVmodel",
+    "body": [
+      "defineProps<{${1:modelValue}:${2:Type}}>()",
+      "defineEmits<{ (e: 'update:${1:modelValue}', value: any): void }>()"
+    ],
+    "description": "define vModel in component with composition api, ts"
+  }
+}

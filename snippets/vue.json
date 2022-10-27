@@ -1,0 +1,40 @@
+{
+  "Base with Vue file with script setup, ts, scss, css-scoped": {
+    "prefix": "vbase-setup-ts-scss-cssscoped",
+    "body": [
+      "<template>",
+      "  <div>",
+      "",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Base with Vue file with script setup, ts, scss, css-module"
+  },
+  "Base with Vue file with script setup, ts, scss, css-module": {
+    "prefix": "vbase-setup-ts-scss-cssmodule",
+    "body": [
+      "<template>",
+      "  <div>",
+      "",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" module>",
+      "",
+      "</style>"
+    ],
+    "description": "Base with Vue file with script setup, ts, scss, css-module"
+  },
+}
