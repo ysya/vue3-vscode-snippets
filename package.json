@@ -6,7 +6,7 @@
     "vscode": "^1.14.0"
   },
   "scripts": {
-    "build": "npx vsce package"
+    "build": "vsce package"
   },
   "repository": {
     "type": "git",
