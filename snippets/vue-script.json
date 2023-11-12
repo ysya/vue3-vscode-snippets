@@ -14,11 +14,67 @@
     "description": "defineProps with composition api, ts"
   },
   "define vModel in component with composition api, ts": {
-    "prefix": "vVmodel",
+    "prefix": "vModel",
     "body": [
       "defineProps<{${1:modelValue}:${2:Type}}>()",
       "defineEmits<{ (e: 'update:${1:modelValue}', value: any): void }>()"
     ],
     "description": "define vModel in component with composition api, ts"
+  },
+  "Vue Composition API - Vue ref": {
+    "prefix": "vref",
+    "body": [
+      "const ${1:name} = ref(${2:initialValue})"
+    ],
+    "description": "Vue Ref"
+  },
+  "Vue Lifecycle Hooks - onMounted": {
+    "prefix": "onmounted",
+    "body": [
+      "onMounted(() => {${1}})"
+    ],
+    "description": "Vue Mounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeMount": {
+    "prefix": "onbeforemount",
+    "body": [
+      "onBeforeMount(() => {${1}})"
+    ],
+    "description": "Vue onBeforeMount Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUpdate": {
+    "prefix": "onbeforeupdate",
+    "body": [
+      "onBeforeUpdate(() => {${1}})"
+    ],
+    "description": "Vue onBeforeUpdate Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUpdated": {
+    "prefix": "onupdated",
+    "body": [
+      "onUpdated(() => {${1}})"
+    ],
+    "description": "Vue onUpdated Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onErrorCaptured": {
+    "prefix": "onerrorcaptured",
+    "body": [
+      "onErrorCaptured(() => {${1}})"
+    ],
+    "description": "Vue onErrorCaptured Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onUnmounted": {
+    "prefix": "onunmounted",
+    "body": [
+      "onUnmounted(() => {${1}})"
+    ],
+    "description": "(destroyed) Vue onUnmounted Lifecycle hook"
+  },
+  "Vue Lifecycle Hooks - onBeforeUnmount": {
+    "prefix": "onbeforeunmount",
+    "body": [
+      "onBeforeUnmount(() => {${1}})"
+    ],
+    "description": "(beforeDestroy) Vue onBeforeUnmount Lifecycle hook"
   }
 }

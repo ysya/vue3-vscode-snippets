@@ -1,6 +1,6 @@
 {
   "name": "vue3-vscode-snippets",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "engines": {
     "vscode": "^1.14.0"
@@ -31,10 +31,6 @@
         "path": "./snippets/vue.json"
       },
       {
-        "language": "jade",
-        "path": "./snippets/vue-pug.json"
-      },
-      {
         "language": "html",
         "path": "./snippets/vue-template.json"
       },
@@ -47,37 +43,12 @@
         "path": "./snippets/vue-script.json"
       },
       {
-        "language": "javascript",
-        "path": "./snippets/vue-script-vuex.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/vue-script-router.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/nuxt-config.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/nuxt-script.json"
-      },
-      {
         "language": "typescript",
         "path": "./snippets/vue-script.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/vue-script-vuex.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/vue-script-router.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/nuxt-config.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
   }
 }
